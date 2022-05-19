@@ -7,11 +7,15 @@
 	width: 100%;
 	min-width: 1200px;
 	height: 90px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 } 
 .nav .blank25{
 	width: 20%;
 	height: 90px;
-	
+	z-index: 10;
 }
 .nav .center{
 	
@@ -49,3 +53,4 @@
 	float: left;
 	margin-top: 6px;
 }
+/* 导航栏结束 */
