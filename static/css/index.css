@@ -129,6 +129,31 @@
 	width: 100%;
 	min-width: 1200px;
 }	
+/* 狗狗轮播标题层 */
+.proview{
+	padding: 0 6%;
+	margin-bottom: 46px;
+	
+	 display: flex;
+	 flex-wrap: nowrap;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.proview .tb-index{
+	background-image: url(../img/dog-nonav.png);
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 width: 93px;
+	 height: 74px;
+	 font-size: 14px;
+	 line-height: 78px;
+	 font-weight: bold;
+	 text-align: center;
+	 
+}
+.proview .tb-index:active{
+	background-color: #FDDA38;
+}
 
 
 
