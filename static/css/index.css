@@ -1,4 +1,6 @@
-
+ul{
+	list-style: none;
+}
 .banner img {
 	width:100%;
 	 min-width: 600px; 
@@ -77,6 +79,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
 .server-content ul li div:nth-child(1){
 	font-size: 12px;
@@ -129,6 +132,56 @@
 	width: 100%;
 	min-width: 1200px;
 }	
+
+/* 宠物家族 */
+.pat-family {
+	margin-bottom: 62px;
+}
+.text h2{
+	font-size: 28px;
+	margin-bottom: 23px;
+	color: #FDDA38;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.text h3{
+	color: #221815;
+	font-size: 18px;
+	margin-bottom: 31px;
+	
+	 font-weight: normal; 
+	text-align: center;
+}
+.text.logo2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 23px;
+}
+
+.logo2 .line{
+	width: 52px;
+	height: 2px;
+	background-color: #fdda38;
+
+}
+.text.logo2 img{
+	width: 16px;
+	margin: 0 17px;
+}
+
+
+.text1{
+	padding: 0 25%;
+	font-size: 16px;
+	text-indent: 32px;
+	line-height: 34px;
+	margin-bottom: 31px;
+	color: #333333;
+	
+}
 /* 狗狗轮播标题层 */
 .proview{
 	padding: 0 6%;
@@ -155,5 +208,298 @@
 	background-color: #FDDA38;
 }
 
+/* 狗狗轮播内容层 */
+.view {
+	width: 100%;
+	background-image: url(../img/leaf_right.png) ;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 8%;
+	
+}
+.view .dog {
+	width: 1519px;
+	display: flex;
+	justify-content: center;
+	/* margin-bottom: 30px; */
+}
+.view .dog-left {
+	padding: 0 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.view .dog-left h2{
+	color: #FDDA38;
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.view .dog-left .dog-text{
+	font-size: 16px;
+	
+	text-indent: 32px;
+	line-height: 37px;
+}
+.view .dog-right{
+	width: 37%;
+	margin-right: 8%;
+}
+.view .dog-right img{
+	width: 562px;
+}
+/* 猫轮播 */
+.cat{
+	margin-bottom: 62px;
+}
+.cat .view {
+	width: 100%;
+	background-image: url(../img/leaf_left.png) ;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 8%;
+	
+}
+/* 猫轮播结束 */
+/* 一个店一座城 */
+.city{
+	position: relative;
+}
+.city .pic{
+	position: absolute;
+	left: 0;
+	top: -62;
+	width: 17%;
+}
+/* 文字部分 */
+/* 小logo */
+.text h2{
+	font-size: 28px;
+	margin-bottom: 23px;
+	color: #FDDA38;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.text h3{
+	color: #221815;
+	font-size: 18px;
+	margin-bottom: 31px;
+	
+	 font-weight: normal; 
+	text-align: center;
+}
+
+.text.logo2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 23px;
+}
+
+.logo2 .line{
+	width: 52px;
+	height: 2px;
+	background-color: #fdda38;
+
+}
+.text.logo2 img{
+	width: 16px;
+	margin: 0 17px;
+}
+/*  一个店一座城 第二层*/
+
+.cit-help{
+	display: flex;
+	
+	align-items: center;
+}
+
+.help h2{
+    font-size: 20px;
+	margin-bottom: 19px;
+	color: #FDDA38;
+	font-weight: bold;
+	text-align: center;
+}
+.help p{
+    font-size:14px;
+	margin-bottom: 39px;
+	color: #221815;
+	font-weight: 400;
+	text-align: center;
+}
+.help div{
+	padding: 0 15.5%;
+	font-size: 14px;
+	text-indent: 24px;
+	line-height: 37px;
+}
+.cit-help img{
+	width: 37%;
+	margin-right: 8%;
+}
+
+/* 一个店一座城 第三层列表 */
+.city-list{
+	background-image: url(../img/bg4.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 10%;
+}
+.city-list-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.city-list .city-list-wrap:nth-child(1){
+	
+}
+.city-list-item,.city-list-item2{
+	width: 30%;
+	height: 148px;
+	margin :32px 32px 32px 0;
+	
+}
+.city-list-item{
+	box-shadow: 0px 8px 23px 1px rgb(128 111 255 / 8%);
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+}
+.city-list-item img{
+	width: 13%;
+	margin-left: 7%;
+	margin-right: 4%;
+}
+.city-list-item h3{
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: #FDDA38;
+	font-weight: 400;
+}
+/* 医疗团队 */
+.team{
+	background-image: url(../img/bg5.png);
+	background-repeat: no-repeat;
+	background-size: 13%;
+	background-position: right top;
+}
+
+.team-list{
+	padding: 0 10%;
+	margin-bottom: 20px;
+}
+.team1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/leaf_right.png);
+	background-size: 10%;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+.team img{
+	width: 35%;
+	margin-left: 10%;
+}
+.team-right{
+	padding: 0 10%;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+}
+.name{
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 39px;
+}
+.name h3{
+	font-size: 20px;
+	margin-right: 23px;
+	font-weight: bold;
+	color: #221815;
+	float: left;
+}
+.name p{
+	float: left;
+	font-size: 20px;
+	color: #221815;
+}
+.information{
+	font-size: 16px;
+	text-indent: 32px;
+	line-height: 23px;
+}
+/* 医生团队第二列 */
+
+.team2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/leaf_left.png);
+	background-size: 10%;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+.team-left{
+	padding: 0 10%;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+}
+/* 贴心的宠物服务 让养宠更省心  */
+.servers-list{
+	padding: 0 16%;
+}
+.servers-list {
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	
+}
+.servers-list li{
+	box-shadow: 0px 8px 23px 1px rgb(128 111 255 / 8%);
+	width: 28%;
+	height: 156px;
+	padding: 2%;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: 5%;
+}
+.servers-list li img{
+	width: 31px;
+	height: 31px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+	/* margin-top: 28px; */
+}
+.servers-list li h4{
+	font-size: 20px;
+	color: #221815;
+	float: left;
+	/* margin-top: 28px; */
+}
+.servers-list li p{
+	font-size: 16px;
+	line-height: 23px;
+	color: rgba(34,24,21,1);
+	float: left;
+	
+}
+.servers-text{
+	font-size: 14px;
+	width: 468px;
+	margin: 23px auto;
+	background-color: #FDDA38;
+	line-height: 50px;
+	border-radius: 25px;
+	text-align: center;
+}
 
 
