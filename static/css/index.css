@@ -451,6 +451,13 @@ ul{
 	/* justify-content: center; */
 }
 /* 贴心的宠物服务 让养宠更省心  */
+.servers{
+	margin-bottom: 62px;
+	background-image: url(../img/bg6.png);
+	background-size: 12%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
 .servers-list{
 	padding: 0 16%;
 }
@@ -470,6 +477,7 @@ ul{
 	overflow: hidden;
 	box-sizing: border-box;
 	margin-bottom: 5%;
+	border-radius: 3%;
 }
 .servers-list li img{
 	width: 31px;
@@ -501,5 +509,139 @@ ul{
 	border-radius: 25px;
 	text-align: center;
 }
+/* 鼠标悬停效果 */
+.servers-list li:hover{
+	box-shadow: 0px 8px 10px 10px rgb(128 111 255 / 10%);
+}
+/* 缩小放大特效 */
 
-
+/* 花生社区 */
+.community{
+	
+	background-image: url(../img/bg7.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 15%;
+	
+	
+	
+}
+.community-content{
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10%;
+	
+	
+}
+.community-text{
+	box-sizing: border-box;
+	font-size: 18px;
+	text-indent: 36px;
+	line-height: 28px;
+	padding: 0 10%;
+	color: #5a5a5a;
+	
+	
+}
+.community-pic{
+	width: 90%;
+	height: 355px;
+	border-radius: 22px;
+	box-sizing: border-box;
+	border: 6px solid #fdd000;
+	/* position: relative; */
+	overflow: hidden;
+	
+	
+}
+.community-pic .com-pic{
+	width:100%%;
+	 height: 100%;
+	/* position: absolute; */
+	border-radius: 16px;
+	z-index: 9;
+	background-image: url(../img/border.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+} 
+/* 新闻资讯 */
+.new-boxs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.new-box{
+	width: 1140px;
+	height: 60px;
+	position: relative;
+}
+.new-box a{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 22px;
+	color: #221815;
+	line-height: 60px;
+}
+.new-boxs ul{
+	width: 1200px;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.new-boxs li{
+	/* border: 1px solid red; */
+	height: 110px;
+}
+.new-boxs li a{
+	box-sizing: border-box;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	font-size: 20px;
+	color: #221815;
+	line-height: 110px;
+}
+.new-boxs li a p{
+	margin-right: 60px;
+}
+.new-boxs li:hover{
+	box-shadow: 0px 8px 10px 10px rgb(128 111 255 / 10%);
+	border-radius: 3px;
+}
+/* 公司资质 */
+.company .roll{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+	/* border: 1px solid red; */
+}
+.company .roll ul{
+	
+	width: 200%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	animation: move 10s infinite;
+	/* height: 201px; */
+}
+.company .roll ul li{
+	width: 25%;
+	
+	
+}
+.company .roll ul li img{
+	width:100%;
+	
+}
+@keyframes move{
+	0%{ transform:translate(0)}
+	100%{ transform:translate(-50%)}
+}
