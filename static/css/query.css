@@ -1,0 +1,39 @@
+body{
+	background-image: url(../img/banner3.png);
+	margin-top: 140px;
+}
+.search{
+	width: 912px;
+	height: 62px;
+	margin-top: 140px;
+	border-radius: 62px;
+	margin: 0 auto;
+	/* background-color: aqua; */
+	display: flex;
+}
+.search input{
+	width: 780px;
+	padding: 23px 31px;
+	font-size: 14px;
+	outline: none;
+	border: 0;
+	border-top-left-radius: 62px;
+	border-bottom-left-radius: 62px;
+	
+}
+.search .pic{
+	border-top-right-radius: 62px;
+	border-bottom-right-radius: 62px;
+	background-color: #f4c526;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 132px;
+	height: 62px;
+	
+}
+.search .pic img{
+	width: 39px;
+	
+}

@@ -629,7 +629,7 @@ ul{
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: nowrap;
-	animation: move 10s infinite;
+	animation: move 15s infinite;
 	/* height: 201px; */
 }
 .company .roll ul li{
@@ -645,3 +645,8 @@ ul{
 	0%{ transform:translate(0)}
 	100%{ transform:translate(-50%)}
 }
+.company .roll ul:hover{
+	animation-play-state: paused;
+}
+
+
