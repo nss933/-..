@@ -1,0 +1,110 @@
+/* logo2 的样式*/
+.text h2{
+	font-size: 28px;
+	margin-bottom: 23px;
+	color: #FDDA38;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.text h3{
+	color: #221815;
+	font-size: 18px;
+	margin-bottom: 31px;
+	
+	font-weight: normal; 
+	text-align: center;
+}
+.text .logo2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 23px;
+}
+ .logo2 .line{
+	 width: 52px;
+	 height: 2px;
+	 background-color: #FDDA38;
+	 
+ }
+ 
+.text img{
+	 width: 20px;
+ }
+ /* 主题图片内容 */
+ .content{
+	     background: url(../community_img/bg1.png) no-repeat right top, url(../				community_img/bg6.png) no-repeat left bottom;
+	     background-size: 15%, 15%;
+	     margin-top: -100px;
+	     z-index: 9;
+	     background-position-y: 10%,100%;
+			 margin-top: -6px;
+	
+	 }
+ }
+
+ /* 
+ .content-list{
+	 width: 62.5%;
+	 margin: 0 auto;
+	 overflow: hidden;
+	 list-style: none;
+	 border: 1px solid red;
+ } */
+
+ 
+ 
+ 
+ /* @media (min-width:1200px) and (max-width)
+  .content-list li{
+		margin: 0 10px;
+		margin-bottom: 13px;
+	}
+	 */
+	
+
+ .content  ul{
+	 width: 62.5%;
+	 margin: 0 auto;
+	 overflow: hidden;
+	 list-style: none;
+ }
+ 
+ .content  ul li{
+	 margin: 0 30px;
+	 margin-bottom: 20px;
+	 float: left;
+	 border-radius: 8px;
+ }
+ 
+ @media (min-width:1200px) and (max-width:1400px){
+	 .content  ul li{
+	 	margin: 0 10px;
+	 	margin-bottom: 13px;
+	 }
+	 .content  ul li div{
+	 		 font-size: 12x;
+	 }
+ }
+ 
+ @media (min-width:1400px) and (max-width:1600px){
+ 	 .content  ul li{
+ 	 	margin: 0 16px;
+ 	 	margin-bottom: 14px;
+ 	 }
+	 .content  ul li div{
+		 font-size: 13px;
+	 }
+ }
+ 
+.content cont-mid{
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	border: 3px solid #fdd000;
+	margin-bottom: 10px;
+	border-radius: 22px;
+}
+ 
+ 
