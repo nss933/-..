@@ -1,0 +1,28 @@
+
+ .nss{
+	 
+	 color: white;
+	 font-size: 20px;
+ }
+ 
+ 
+ .content{
+ 	     background: url(../community_img/bg1.png) no-repeat right top, url(../community_img/bg6.png) no-repeat left bottom;
+ 	     background-size: 15%, 15%;
+ 	     margin-top: -100px;
+ 	     z-index: 9;
+ 	     background-position-y: 10%,100%;
+ 			 margin-top: -6px;
+
+ 	 }
+ 
+ 
+.pic{
+	border: 1px solid red;
+	background-color: blue;
+	font-size: 25px;
+}
+ .pic li{
+	
+ }
+ 

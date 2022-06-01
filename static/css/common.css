@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+ul{
+	list-style: none;
+}
 .nav{
 	background-color:rgba(26, 26, 26, 0.26);
 	width: 100%;
@@ -64,7 +67,7 @@
 .footer{
 	padding: 0 10% 20px;
 	background-color: #f3d340;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	display: flex;
 	justify-content: space-between;
 	font-size: 12px
@@ -114,12 +117,15 @@
 }
 /* 最后 */
 .down{
-	font-size: 12px;
+	font-size: 16px;
+	background: #FFFCED;
+	line-height: 78px;
 }
 .down ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	list-style: none;
 }
 .down ul li{
 	padding: 0 10px;
