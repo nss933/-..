@@ -126,6 +126,7 @@ ul{
 	justify-content: center;
 	align-items: center;
 	list-style: none;
+	margin-bottom: 0;
 }
 .down ul li{
 	padding: 0 10px;
@@ -133,7 +134,18 @@ ul{
 .down ul a{
 	color: #1a1a1a;
 }
-
+@media (min-width:1200px) and (max-width:1400px) {
+	.down{
+		font-size: 12px;
+		line-height: 53px;
+	}
+}
+@media (min-width:1400px) and (max-width:1600px) {
+	.down{
+		font-size: 12px;
+		line-height: 60px;
+	}
+}
 
 
 /* 固定 格式*/

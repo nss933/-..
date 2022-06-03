@@ -112,6 +112,8 @@
  	 }
  }
  
+
+ 
  @media (min-width:1400px) and (max-width:1600px){
  	 .content .cont-mid li{
  	 	margin: 0 16px;
@@ -129,11 +131,35 @@
  	 
  }
  
- /* 分页 */
- .down-page{
-	 padding: 40px 0;
-	 font-size: 14px;
-	 display: flex;
-	 justify-content: center;
- }
- 
+/* 分页 */
+.page{
+	padding: 20px 0;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+}
+.page-prev{
+	width: 100px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	background-color: #ffd000;
+	margin: 0 15px;
+	color: #1a1a1a;
+}
+
+.page-item{
+	color: #1a1a1a;
+	padding: 0 15px;
+	line-height: 44px;
+	font-size: 18px;
+}
+.page-next{
+	width: 100px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	background-color: #fdd000;
+	margin: 0 15px;
+	color: #1a1a1a;
+}

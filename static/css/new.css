@@ -1,0 +1,302 @@
+/* 文章类型 */
+.artical{
+	width: 85%;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+
+ /* 光标手型 */
+ .artical-content li{
+	cursor: pointer;
+	/* border: 1px solid red; */
+ }
+/* 左侧标题栏 */
+.artical-title{
+	float: left;
+	width: 155px;
+	top: 110px;
+}
+.title-item{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 60px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	background-color: #f7f7f7;
+}
+.artical .active{
+	background-color: #fdda38;
+}
+.title-item a{
+	color: #000;
+}
+/* 右侧文章栏 */
+.artical-content{
+	float: right;
+	width: 78%;
+	
+}
+/* 第一块 */
+.artical-item{
+	border-radius: 20px;
+	box-shadow: 0px 4px 15px 1px rgb(92 92 92  / 8%);
+	display: flex;
+	margin-bottom: 40px;
+	padding-right: 5%;
+}
+/* 左边图片 */
+
+.artical-item{
+	width: 100%;
+	padding:2%;
+	display: flex;
+}
+.item-1{
+	width: 22%;
+	height: 194px;
+	margin-right: 50px;
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 16px;
+	border: 3px solid #fdd000;
+	overflow: hidden;
+}
+.item-1 .bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../../peanut/newsbg1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 9;
+}
+.item-1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 中间内容 */
+.item-2{
+	width: 60%;
+}
+.item-2-top {
+	box-sizing: border-box;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	margin-top: 19px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: dashed 1px #bab9ba;
+	color: #000;
+}
+.item-2-down {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	margin-top: 19px;
+	color: #333;
+	
+}
+/* 右边日期 */
+.item-3{
+	flex: 1;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.item-3-top{
+	margin-top: 15px;
+}
+
+.item-3-top h3{
+	font-size: 30px;
+	color: #2e2e2e;
+	margin-bottom: 10px;
+}
+.item-3-top p{
+	font-size: 20px;
+	color: #2e2e2e;
+}
+.item-3-down{
+	width: 79px;
+	height: 30px;
+	margin-top: 70px;
+	border-radius: 30px;
+	text-align: center;
+	background-color: #f6f6f6;
+}
+.item-3-down img{
+	width: 21px;
+	height: 16px;
+	margin-top: 6px;
+}
+
+
+/* 分页 */
+.page{
+	padding: 20px 0;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+}
+.page-prev{
+	width: 100px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	background-color: #ffd000;
+	margin: 0 15px;
+	color: #1a1a1a;
+}
+
+.page-item{
+	color: #1a1a1a;
+	padding: 0 15px;
+	line-height: 44px;
+	font-size: 18px;
+}
+.page-next{
+	width: 100px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	background-color: #fdd000;
+	margin: 0 15px;
+	color: #1a1a1a;
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+	.artical-title{
+		width: 105px;
+		top: 75px;
+	}
+	.title-item{
+		font-size: 12px;
+		border-radius: 40px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+	.artical-item{
+		margin-top: 27px;
+	}
+	/* 要修改区域 */
+	.item-1{
+			height: 131px;
+			margin-right: 34px;
+		}
+		.item-1 img{
+			
+			height: 122px;
+			margin-right: 13px;
+		}
+		.item-2-top{
+			font-size: 13px;
+			margin-top: 13x;
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+		}
+		.item-3-top{
+			margin-top: 17px;
+		}
+		.item-3-top h3{
+			font-size: 20px;
+			margin-bottom: 6px;
+		}
+		.item-3-top p{
+			font-size: 12px;
+		}
+		.item-3-down{
+			width: 53px;
+			height: 20px;
+			margin-top: 47px;
+			border-radius: 20px;
+		}
+		.item-3-down img{
+			width: 14px;
+			height:10px;
+			margin-top: 4px;
+		}
+}
+
+
+
+
+@media (min-width:1400px) and (max-width:1600px)  {
+	.artical-title{
+		width: 120px;
+		top: 86px;
+	}
+	.artical-item{
+		margin-bottom: 31px;
+	}
+	.title-item{
+		font-size: 13x;
+		border-radius: 46px;
+		line-height: 46px;
+		margin-bottom: 23px;
+	}
+	.item-1{
+		height: 151px;
+		margin-right: 39px;
+	}
+	.item-1 img{
+		
+		height: 150px;
+		margin-right: 14px;
+	}
+	.item-2-top{
+		font-size: 15px;
+		margin-top: 14px;
+		padding-bottom: 23px;
+		margin-bottom: 23px;
+	}
+	.item-3-top{
+		margin-top: 20px;
+	}
+	.item-3-top h3{
+		font-size: 23px;
+		margin-bottom: 7px;
+	}
+	.item-3-top p{
+		font-size: 14px;
+	}
+	.item-3-down{
+		width: 61px;
+		height: 23px;
+		margin-top: 54px;
+		border-radius: 23px;
+	}
+	.item-3-down img{
+		width: 16px;
+		height:12px;
+		margin-top: 4px;
+	}
+	
+}
+
+
+/* 鼠标悬停特效 */
+
+.artical-item:hover {
+  box-shadow: 5px 5px 15px 10px rgb(92 92 92  /10%);
+	}
+
+.artical-item:hover .item-3-down{
+	background-color: #fdd000;
+}
+
+
+
+
+
+
+
+
+
+
