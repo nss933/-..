@@ -166,8 +166,8 @@ ul{
 
 .text h3{
 	color: #221815;
-	font-size: 18px;
-	margin-bottom: 31px;
+	font-size: 24px;
+	margin-bottom: 40px;
 	
 	font-weight: normal; 
 	text-align: center;
@@ -176,18 +176,18 @@ ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 23px;
+	margin-bottom: 30px;
 	
 }
 .logo2 .line{
-	width: 52px;
+	width: 67px;
 	height: 2px;
 	background-color: #fdda38;
 
 }
 .text .logo2 img{
-	width: 16px;
-	margin: 0 17px;
+	width: 21px;
+	margin: 0 22px;
 }
 .text1{
 	
@@ -198,4 +198,44 @@ ul{
 	color:1a1a1a;
 	
 }
+@media  (min-width:1200px) and (max-width:1400px) {
+	.server-bottom h2{
+		font-size:24px;
+		margin-bottom:20px;
+	}
+	.text .logo2{
+		margin-bottom: 16px;
+	}
+	.logo2 .line{
+		width: 45px;
+	} 
+	.text .logo2 img{
+		width: 14px;
+	  margin: 0 15px;
+	}
+	.text h3{
+		font-size: 18px;
+		margin-bottom: 27px;
+	}
+	
+}
 
+@media  (min-width:1400px) and (max-width:1600px) {
+	.server-bottom h2{
+		font-size:28px;
+		margin-bottom:23px;
+	}
+	.text .logo2{
+		margin-bottom: 23px;
+	}
+	.logo2 .line{
+		width: 52px;
+	} 
+	.text .logo2 img{
+		width: 16px;    margin: 0 17px;
+	}
+	.text h3{
+		font-size: 18px;
+		margin-bottom: 31px;
+	}
+}

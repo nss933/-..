@@ -1,0 +1,217 @@
+.server-bottom{
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-size: 24%;
+	background-position:right bottom ;
+	padding-bottom: 6%;
+	display: flex;
+	align-items: center;
+}
+.server-bottom>img{
+	width: 41%;
+}
+.server-bottom .pet-right{
+	flex: 1;
+	text-align: center;
+	background:url(../img/bg1.png) no-repeat;
+	background-size: 13%;
+	background-position: right top;
+}
+.server-bottom h2{
+	font-size: 36px;
+	color: #fdda38;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.server-bottom h3{
+	font-size: 24px;
+	font-weight: 400;
+	color: #221815;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.server-bottom .pet-text{
+	
+	font-size: 22px;
+	color: #333333;
+	line-height: 48px;
+	
+}
+
+@media  (min-width:1200px) and (max-width:1400px) {
+	.server-bottom h2{
+		font-size:24px;
+		margin-bottom:20px;
+	}
+	.text .logo2{
+		margin-bottom: 16px;
+	}
+	.logo2 .line{
+		width: 45px;
+	} 
+	.text .logo2 img{
+		width: 14px;
+	  margin: 0 15px;
+	}
+	.text h3{
+		font-size: 18px;
+		margin-bottom: 27px;
+	}
+	.server-bottom .pet-text{
+		font-size:14px;
+		line-height:32px;
+	}
+}
+/* 长条图 */
+.bg_line{
+	width: 100%;
+	min-width: 1200px;
+}	
+
+/* 狗狗轮播标题部分 */
+.proview{
+	padding: 0 6%;
+	margin-bottom: 46px;
+	
+	 display: flex;
+	 flex-wrap: nowrap;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.proview .tb-index{
+	background-image: url(../img/dog-nonav.png);
+
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 width: 93px;
+	 height: 74px;
+	 font-size: 14px;
+	 line-height: 78px;
+	 font-weight: bold;
+	 text-align: center;
+	 
+}
+.proview .tb-index:active{
+	background-color: #FDDA38;
+}
+
+/* 内容部分 */
+.dog-mes .dog-view{
+	width: 100%;
+	background: url(../pet_img/leaf_right.png) no-repeat right bottom;
+	background-size: 8%;
+	display: flex;
+	align-items: center;
+ justify-content: center; 
+}
+
+
+.dog-mes .view-left{
+	box-sizing: border-box;
+	/* flex: 1; */
+	padding: 4% 0;
+	overflow: hidden;
+	width: 729px;
+}
+.dog-mes .view-left img{
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 40px;
+	display: block;
+}
+.dog-mes .view-text{
+	padding: 0 20%;
+	/* text-align: center; */
+}
+.dog-mes .view-text div{
+	font-size: 14px;
+	line-height: 23px;
+	white-space: wrap;
+}
+.dog-mes .view-right {
+	position: relative;
+	width: 486px;
+	height: 390px;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+	cursor: default;
+}
+.dog-mes .view-right img{
+	width: 330px;
+}
+/* 猫轮播 */
+.cat-mes .dog-view{
+	width: 100%;
+	display: flex;
+	align-items: center;
+ justify-content: center; 
+}
+
+
+.cat-mes .view-left{
+	box-sizing: border-box;
+	/* flex: 1; */
+	padding: 4% 0;
+	overflow: hidden;
+	width: 729px;
+}
+.cat-mes .view-left img{
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 40px;
+	display: block;
+}
+.cat-mes .view-text{
+	padding: 0 20%;
+	/* text-align: center; */
+}
+.cat-mes .view-text div{
+	font-size: 14px;
+	line-height: 23px;
+	white-space: wrap;
+}
+.cat-mes .view-right {
+	position: relative;
+	width: 486px;
+	height: 390px;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+	cursor: default;
+}
+.cat-mes .view-right img{
+	width: 330px;
+}
+
+
+
+
+
+
+
+@media  (min-width:1400px) and (max-width:1600px) {
+	.server-bottom .pet-text{
+		font-size:18px;
+		line-height:37px;
+	}
+	.server-bottom h2{
+		font-size:28px;
+		margin-bottom:23px;
+	}
+	.text .logo2{
+		margin-bottom: 23px;
+	}
+	.logo2 .line{
+		width: 52px;
+	} 
+	.text .logo2 img{
+		width: 16px;
+	  margin: 0 17px;
+	}
+	.text h3{
+		font-size: 18px;
+		margin-bottom: 31px;
+	}
+}
