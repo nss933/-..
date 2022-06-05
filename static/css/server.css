@@ -1,0 +1,99 @@
+.servers{
+	padding: 0 18%;
+}
+/* 背景图 */
+.servers {
+    margin-top: -100px;
+    background: url(../server_img/bg11.png) no-repeat left top, url(../server_img/bg1.png) no-repeat right bottom, url(../server_img/bg4.png) no-repeat left bottom;
+    background-size: 15%, 15%;
+}
+.servers .title{
+	display: flex;
+	justify-content: space-around;
+		
+}
+
+.servers .title li{
+	width: 194px;
+	height: 98px;
+	text-align: center;
+	padding: 31px 0;
+}
+.servers .title li img{
+	width: 78px;
+}
+.servers .title li h4{
+	font-size: 20px;
+	color: #222222;
+	margin: 0 auto;
+}
+.servers .title .title-active{
+	border-radius: 8px;
+	box-shadow: 0px 0px 25px 4px rgb(218 218 218 / 54%);
+}
+/* 具体项目 */
+.servers .servers-item1-pic{
+	margin-top: 31px;
+}
+.servers .servers-item1-pic ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.servers .servers-item1-pic ul li{
+	width: 56px;
+	height: 76px;
+	padding: 15px;
+	text-align: center;
+	
+	margin-bottom: 7px;
+}
+.servers .servers-item1-pic ul li img{
+	width: 54px;
+}
+.servers .servers-item1-pic ul li p{
+	font-size: 14px;
+	
+}
+.servers .servers-item1-pic .pic-active{
+	box-shadow: 0px 10px 36px 4px rgb(26 26 26 / 10%);
+	border-radius: 8px;
+}
+
+.servers .attention{
+	background-color: #fdda38;
+	border-radius: 12px;
+	color: #1a1a1a;
+	font-size: 14px;
+	line-height: 47px;
+	text-align: center;
+}
+/* 详细情况 */
+.servers .details{
+	display: flex;
+	margin-top: 23px;
+}
+.servers .details img{
+	width: 40%;
+}
+.servers .details h3{
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+.servers .details .line{
+	width: 20%;
+	height: 2px;
+	background-color: #fdd13a;
+}
+
+.servers .details p{
+	margin-top: 23px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #1a1a1a;
+}
+
+
+
+
+
