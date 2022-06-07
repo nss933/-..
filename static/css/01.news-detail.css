@@ -1,0 +1,89 @@
+
+body{
+	background-color: #f6f6f6;
+}
+.view{
+	background-color: #fff;
+	width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+.view .msg{
+	padding: 30px;
+	margin-bottom: 28px;
+	border-radius: 6px;
+	font-size: 16px;
+}
+.view .msg1{
+	color: #1a1a1a;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.view .msg1 img{
+	height: 20px;
+	margin-right: 10px;
+}
+.view .msg1 h1{
+	font-size: 18px;
+  text-align: center;
+	margin: 0 auto;
+}
+.view .msg2{
+	display: flex;
+	justify-content: space-between;
+}
+.view .msg2 span{
+	display: block;
+}
+.view .pic{
+	padding: 23px;
+	font-size: 14px;
+	line-height: 27px;
+}
+.view .pic img{
+	margin: 15px auto;
+	display: block;
+}
+.state{
+	border-top: 1px dotted #e1e2e3;
+	padding: 5px 20px;
+	background-color: #f1f2f3;
+}
+.state-item{
+	font-size: 14px;
+	color: #333;
+	line-height: 22px;
+	margin: 5px 0;
+}
+.state-item span:nth-child(1){
+	font-weight: bold;
+}
+.state-item a{
+	color: #000;
+}
+.navbox{
+	padding: 40px 30px;
+}
+.navbox .page{
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+}
+.navbox .page .pagebtn{
+	width: 65px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 16px;
+	color: #1a1a1a;
+	margin-right: 14px;
+	background-color: #ffd000;
+}
+.navbox .page a{
+	color: #1a1a1a;
+}
+
+
+
+
