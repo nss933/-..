@@ -1,16 +1,18 @@
-.servers{
+/* .servers{
 	padding: 0 18%;
-}
+} */
+
 /* 背景图 */
 .servers {
     margin-top: -100px;
     background: url(../server_img/bg11.png) no-repeat left top, url(../server_img/bg1.png) no-repeat right bottom, url(../server_img/bg4.png) no-repeat left bottom;
     background-size: 15%, 15%;
+		user-select: none;
 }
 .servers .title{
 	display: flex;
 	justify-content: space-around;
-		
+	padding: 0 18%;	
 }
 
 .servers .title li{
@@ -34,6 +36,7 @@
 /* 具体项目 */
 .servers .servers-item1-pic{
 	margin-top: 31px;
+	padding: 0 18%;
 }
 .servers .servers-item1-pic ul{
 	display: flex;
@@ -58,6 +61,7 @@
 .servers .servers-item1-pic .pic-active{
 	box-shadow: 0px 10px 36px 4px rgb(26 26 26 / 10%);
 	border-radius: 8px;
+	color: #fdd13a;
 }
 
 .servers .attention{
@@ -72,10 +76,15 @@
 .servers .details{
 	display: flex;
 	margin-top: 23px;
+	flex-wrap: nowrap;
 }
 .servers .details img{
 	width: 40%;
+	
 }
+/* .servers .details .text2{
+	float: right;
+} */
 .servers .details h3{
 	font-size: 20px;
 	margin-bottom: 14px;
@@ -93,6 +102,161 @@
 	color: #1a1a1a;
 }
 
+/* 的第二大快 */
+.servers-item2-pic{
+	padding: 0 10%;
+}
+.servers-item2-pic ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.servers-item2-pic ul li{
+	width: 30%;
+	height: 284px;
+	padding: 2%;
+	margin: 19px;
+	box-shadow: 0px 0px 25px 4px rgb(218 218 218 / 54%);
+	border-radius: 16px;
+	box-sizing: border-box;
+	background-color: white;
+}
+.servers-item2-pic .med{
+	display: flex;
+	align-items: center;
+	margin-bottom: 14px;
+}
+.servers-item2-pic .med img{
+	width: 37px;
+	height: 37px;
+	margin-right: 23px;
+}
+.servers-item2-pic .med h3{
+	font-size: 14px;
+}
+.servers-item2-pic h3{
+	font-size: 14px;
+	margin-bottom: 7px;
+	color: #1a1a1a;
+}
+.servers-item2-pic p{
+	font-size: 14px;
+	line-height: 23px;
+	color: #454545;
+	text-align: justify;
+}
+/* 第三大块 */
+.servers-item3-pic{
+	padding: 0 19%;
+	margin-top: 31px;
+}
+.servers-item3-pic ul{
+	/* display: flex; */
+	/* margin-bottom: 78px; */
+}
+.servers-item3-pic .doc-item{
+	display: flex;
+	box-sizing: border-box;
+	height: 358px;
+	margin-bottom: 78px;
+
+}
+.servers-item3-pic .doc-item>img{
+	width: 26%;
+	height: 358px;
+	margin-right: 4%;
+	border-radius: 8px;
+}
+/* 右边 */
+.servers-item3-pic .doc-right{
+	flex: 1;
+}
+.servers-item3-pic .doc-name{
+	display: flex;
+ justify-content: space-between; 
+	border-bottom:1px solid #d5d5d5;
+	padding-top: 21px;
+	padding-bottom: 7px;
+	align-items: center;
+}
+.servers-item3-pic .doc-name .doc-name-l{
+	display: flex;
+	width: 312px;
+	align-items: center;
+}
+.servers-item3-pic .doc-name .doc-name-l h2{
+	color: #1a1a1a;
+	font-size: 25px;
+}
+.servers-item3-pic .doc-name .doc-name-l p{
+	color: #353535;
+	font-size: 16px;
+	margin-left: 12px;
+	
+}
+.servers-item3-pic .doc-name .doc-name-r{
+	display: flex;
+	justify-content: space-between;
+}
+.servers-item3-pic .doc-name .doc-name-r h2{
+	font-size: 20px;
+	color: #353535;
+}
+.servers-item3-pic .doc-name .doc-name-r h2:nth-child(1){
+	margin-right: 70px;
+}
+.servers-item3-pic .doc-text{
+	font-size: 17px;
+	padding: 14px 0;
+	text-indent: 34px;
+	line-height: 28px;
+}
+.servers-item3-pic .doc-z{
+	font-size: 23px;
+	margin: 31px 0;
+	display: flex;
+	align-items: center;
+	color: #1a1a1a;
+}
+.servers-item3-pic .doc-z h2{
+	margin-right: 25px;
+}
+.servers-item3-pic .doc-list ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.servers-item3-pic .doc-list ul li{
+	margin-bottom: 23px;
+	width: 30%;
+	display: flex;
+}
+.servers-item3-pic .doc-list ul li img{
+	width: 31px;
+	height: 31px;
+	margin-right: 14px;
+}
+
+.servers-item3-pic .doc-list ul li p:nth-child(1){
+	font-size: 14px;
+	margin-bottom: 7px;
+	line-height: 14px;
+}
+.servers-item3-pic .doc-list ul li p:nth-child(2){
+	font-size: 13px;
+	line-height: 13px;
+}
+
+/* 让其他两大块先隐藏 */
+
+.servers>div:not(.show1){
+	display: none;
+}
+
+/* 让其他七小块先隐藏 */
+ .servers .details:not(.show2){
+	display: none;
+} 
 
 
 
