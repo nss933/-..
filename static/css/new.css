@@ -34,7 +34,7 @@
 /* 右侧文章栏 */
 .artical-content{
 	float: right;
-	width: 78%;
+	width: 85%;
 	
 }
 /* 第一块 */
@@ -43,15 +43,15 @@
 	box-shadow: 0px 4px 15px 1px rgb(92 92 92  / 8%);
 	display: flex;
 	margin-bottom: 40px;
-	padding-right: 5%;
+	padding-right:5%;
 }
 /* 左边图片 */
 
-.artical-item{
+ .xin{
 	width: 100%;
 	padding:2%;
 	display: flex;
-}
+} 
 .item-1{
 	width: 22%;
 	height: 194px;
@@ -80,7 +80,7 @@
 }
 /* 中间内容 */
 .item-2{
-	width: 60%;
+	width:60%;
 }
 .item-2-top {
 	box-sizing: border-box;
@@ -94,12 +94,18 @@
 	border-bottom: dashed 1px #bab9ba;
 	color: #000;
 }
+.item-2-top h3{
+	font-size: 20px;
+}
 .item-2-down {
 	overflow: hidden;
+	white-space: nowrap;
 	text-overflow: ellipsis;
 	font-size: 18px;
 	margin-top: 19px;
 	color: #333;
+	-webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 	
 }
 /* 右边日期 */
@@ -118,6 +124,7 @@
 	font-size: 30px;
 	color: #2e2e2e;
 	margin-bottom: 10px;
+	font-weight: 500;
 }
 .item-3-top p{
 	font-size: 20px;
@@ -197,9 +204,17 @@
 		}
 		.item-2-top{
 			font-size: 13px;
-			margin-top: 13x;
+			margin-top: 13px;
 			padding-bottom: 20px;
 			margin-bottom: 20px;
+		}
+		.item-2-top h3{
+			font-size: 13px;
+		}
+		.item-2-down {
+			
+			font-size: 12px;
+			line-height: 20px;
 		}
 		.item-3-top{
 			margin-top: 17px;
@@ -236,7 +251,7 @@
 		margin-bottom: 31px;
 	}
 	.title-item{
-		font-size: 13x;
+		font-size: 13px;
 		border-radius: 46px;
 		line-height: 46px;
 		margin-bottom: 23px;
@@ -255,6 +270,14 @@
 		margin-top: 14px;
 		padding-bottom: 23px;
 		margin-bottom: 23px;
+	}
+	.item-2-top h3{
+		font-size: 15px;
+	}
+	.item-2-down {
+		
+		font-size: 14px;
+		line-height: 23px;
 	}
 	.item-3-top{
 		margin-top: 20px;
@@ -290,7 +313,10 @@
 .artical-item:hover .item-3-down{
 	background-color: #fdd000;
 }
-
+.artical-item:hover .item-2-top{
+	color: #0d72c9;
+	border-bottom: 1px dashed #0d72c9;
+}
 
 
 
