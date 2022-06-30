@@ -177,6 +177,9 @@
 	margin: 0 15px;
 	color: #1a1a1a;
 }
+.page-item.active{
+	color: #fdd000;
+}
 
 @media (min-width:1200px) and (max-width:1400px) {
 	.artical-title{
