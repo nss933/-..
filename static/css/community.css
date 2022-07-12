@@ -93,6 +93,9 @@
 	 text-align: center;
  }
  
+ .page-item.active{
+ 	color: #fdd000;
+ }
  
  /* 响应式 */
  @media (min-width:1200px) and (max-width:1400px){

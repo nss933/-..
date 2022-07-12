@@ -296,19 +296,26 @@
 				</li>
 			</ul>
 			
-			
 			<!-- 分页 -->
 			<div class="page">
-				<a href="javascript:;" class="page-prev">上一页</a>
-				<a href="#" class="page-item">1</a>
-				<a href="#" class="page-item">2</a>
-				<a href="#" class="page-item">...</a>
-				<a href="#" class="page-item">5</a>
-			  <a href="#" class="page-next">下一页</a>
+				<a class="page-prev">上一页</a>
+				<a class="page-item active">1</a>
+				<a class="page-item">2</a>
+				<a class="page-item">3</a>
+				<!-- <a href="#" class="page-item">...</a>
+					<a href="#" class="page-item">5</a> -->
+				<a class="page-next">下一页</a>
 			</div>
+			
 		</div>
 		
-		
+		<!-- 分页 -->
+		<script src="JS/vendor/jquery-3.6.0.js"></script>
+		<script>
+			$('.page-item').click(function() {
+				$(this).addClass('active').siblings().removeClass('active')
+			});
+		</script>
 		
 		
 		

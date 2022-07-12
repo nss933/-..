@@ -205,9 +205,22 @@ ul{
 	 text-align: center;
 	 
 }
-.proview .tb-index:active{
-	background-color: #FDDA38;
+.proview .cat-index{
+	background-image: url(../img/dog-nonav.png);
+
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 width: 93px;
+	 height: 74px;
+	 font-size: 14px;
+	 line-height: 78px;
+	 font-weight: bold;
+	 text-align: center;
+	 
 }
+/* .proview .tb-index:active{
+	background-color: #FDDA38;
+} */
 
 /* 狗狗轮播内容层 */
 .view {
@@ -218,36 +231,36 @@ ul{
 	background-size: 8%;
 	
 }
-.view .dog {
+.view .swiper-slide {
 	width: 1519px;
 	display: flex;
 	justify-content: center;
 	/* margin-bottom: 30px; */
 }
-.view .dog-left {
+.view .swiper-slide-left {
 	padding: 0 8%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	
 }
-.view .dog-left h2{
+.view .swiper-slide-left h2{
 	color: #FDDA38;
 	font-size: 20px;
 	margin-bottom: 30px;
 	text-align: center;
 }
-.view .dog-left .dog-text{
+.view .swiper-slide-left div{
 	font-size: 16px;
 	
 	text-indent: 32px;
 	line-height: 37px;
 }
-.view .dog-right{
+.view .swiper-slide-right{
 	width: 37%;
 	margin-right: 8%;
 }
-.view .dog-right img{
+.view .swiper-slide-right img{
 	width: 562px;
 }
 /* 猫轮播 */
@@ -666,3 +679,52 @@ ul{
 }
 
 
+ .view {
+        position: relative;
+        height: 100%;
+      }
+
+      .view{
+        /* background: #eee; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+				user-select: none;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+       width: 300px;
+      }
+			
+			.dog-nav {
+			    background: url(../../peanut/dog-nav.png) no-repeat left top !important;
+			    background-size: 100% !important;
+			}
+			
