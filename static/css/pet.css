@@ -139,7 +139,7 @@
 	cursor: default;
 }
 .dog-mes .view-right img{
-	width: 330px;
+	width: 400px;
 }
 /* 猫轮播 */
 .cat-mes .dog-view{
@@ -180,6 +180,8 @@
 	margin: 0;
 	border-width: 0;
 	cursor: default;
+	left: 12%;
+	margin-bottom: 130px;
 }
 .cat-mes .view-right img{
 	width: 330px;
